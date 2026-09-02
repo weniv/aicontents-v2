@@ -1,0 +1,1014 @@
+﻿<!doctype html>
+<!-- aicontents-v2 : 홍보 용역 결과보고서용 v2 (계약 기간 2026.07.13~09.30 기준 일정 재구성본). 라이브 배포 금지, 원본은 index.html -->
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>JEJU AI Creators | 2026 AI특화 콘텐츠 창작자 양성</title>
+    <meta
+      name="description"
+      content="2026년 한국콘텐츠진흥원(KOCCA) 지원, 제주 로컬 콘텐츠 × 생성형 AI 75시간 무료 교육. 5개 트랙, 200명 모집."
+    />
+    <meta
+      property="og:title"
+      content="JEJU AI Creators · 2026 AI특화 콘텐츠 창작자 양성"
+    />
+    <meta
+      property="og:description"
+      content="제주 로컬 콘텐츠 × 생성형 AI · 75시간 무료 교육 · 5개 트랙 · 200명 모집"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="./assets/meta/OG.png" />
+    <link rel="icon" type="image/png" href="./assets/meta/fav.png" />
+
+    <link rel="stylesheet" href="./style/index.css" />
+    <link rel="stylesheet" href="./landing.css" />
+
+    <!-- Three.js (ES module) -->
+    <script type="importmap">
+      {
+        "imports": {
+          "three": "https://unpkg.com/three@0.160.0/build/three.module.js",
+          "three/examples/jsm/": "https://unpkg.com/three@0.160.0/examples/jsm/"
+        }
+      }
+    </script>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-4HM5FESC92"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-4HM5FESC92");
+    </script>
+  </head>
+  <body>
+    <!-- =============== HEADER =============== -->
+    <header class="lp-header lp-header--transparent">
+      <div class="max-width lp-header__inner">
+        <a
+          href="#top"
+          class="lp-logo"
+          aria-label="제주 관광 부스트업 AI 콘텐츠 창작소"
+        >
+          <span>제주 AI 콘텐츠 창작소</span>
+        </a>
+
+        <nav class="lp-nav" aria-label="페이지 내 이동">
+          <a href="#about">사업소개</a>
+          <a href="#tracks">트랙</a>
+          <a href="#curriculum">커리큘럼</a>
+          <a href="#info">모집안내</a>
+          <a href="#faq">FAQ</a>
+        </nav>
+
+        <div class="lp-header__cta">
+          <a href="#tracks" class="btn btn--small btn--primary"
+            >지금 신청하기</a
+          >
+        </div>
+      </div>
+    </header>
+
+    <main id="top" class="contents">
+      <!-- =============== HERO =============== -->
+      <section class="lp-hero">
+        <div class="max-width lp-hero__inner">
+          <div class="lp-hero__copy">
+            <span class="lp-hero__badge"
+              >교육비 100% 무료 & AI 구독료 최대 12만원 지원</span
+            >
+
+            <h1 class="lp-hero__title">
+              <span class="lp-hl lp-hl--yellow">제주에서 배우는</span><br />
+              <span class="lp-hl lp-hl--green">생성형 AI 콘텐츠 창작</span>
+            </h1>
+
+            <div class="lp-hero__ctas">
+              <a href="#tracks" class="btn btn--medium btn--primary"
+                >지금 신청하기 →</a
+              >
+            </div>
+          </div>
+
+          <!-- 우측 비주얼 영역: 포스터 키비주얼 에셋 둥둥 -->
+          <div class="lp-hero__visual" aria-hidden="true">
+            <img
+              src="./assets/img/img-3.webp"
+              alt=""
+              class="lp-hero__float lp-hero__float--fern1"
+            />
+            <img
+              src="./assets/img/img-2.webp"
+              alt=""
+              class="lp-hero__float lp-hero__float--laptop"
+            />
+            <img
+              src="./assets/img/img-1.webp"
+              alt=""
+              class="lp-hero__float lp-hero__float--dol"
+            />
+            <img
+              src="./assets/img/img-4.webp"
+              alt=""
+              class="lp-hero__float lp-hero__float--fern2"
+            />
+            <img
+              src="./assets/img/img-5.webp"
+              alt=""
+              class="lp-hero__float lp-hero__float--blob"
+            />
+            <img
+              src="./assets/img/img-6.webp"
+              alt=""
+              class="lp-hero__float lp-hero__float--bead-1"
+            />
+            <img
+              src="./assets/img/img-6.webp"
+              alt=""
+              class="lp-hero__float lp-hero__float--bead-2"
+            />
+            <img
+              src="./assets/img/img-6.webp"
+              alt=""
+              class="lp-hero__float lp-hero__float--bead-3"
+            />
+          </div>
+        </div>
+        <a href="#about" class="lp-hero__scroll" aria-label="아래로 스크롤">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="2"
+            stroke="currentColor"
+            width="28"
+            height="28"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="m19.5 8.25-7.5 7.5-7.5-7.5"
+            />
+          </svg>
+        </a>
+      </section>
+
+      <!-- =============== ABOUT =============== -->
+      <section id="about" class="lp-section">
+        <div class="max-width">
+          <div class="lp-section__head">
+            <span class="lp-eyebrow">About Program</span>
+            <h2 class="lp-section__title">
+              현장에서 통하는
+              <span class="txt-highlight">AI 콘텐츠 실무</span>를 배웁니다
+            </h2>
+            <p class="lp-section__desc">
+              <strong>제주관광 부스트업 AI 콘텐츠 창작소</strong>는
+              한국콘텐츠진흥원 2026년 AI특화 콘텐츠 창작자 양성 사업의 일환으로,
+              생성형 AI를 활용해 콘텐츠를 직접 기획·제작하는 실력 있는 창작자를
+              키우기 위한 무료 교육 프로그램입니다. 기획부터 영상·디자인까지,
+              생성형 AI 활용 전 과정을 75시간에 걸쳐 직접 만들어보며 익히실 수
+              있습니다.
+            </p>
+          </div>
+
+          <div class="lp-features">
+            <article class="lp-feature">
+              <div class="lp-feature__thumb">
+                <img
+                  src="./assets/portfolio/백업/Animal_character_interviews_202604011131-0009.png"
+                  alt="기획부터 발행까지 풀 프로세스"
+                  loading="lazy"
+                />
+              </div>
+              <h3 class="lp-feature__title">기획부터 발행까지 풀 프로세스</h3>
+              <p class="lp-feature__desc">
+                아이데이션 → 캐릭터 디자인 → 이미지/영상 생성 → 후반 편집 →
+                썸네일까지, 실제 콘텐츠가 만들어지는 전 과정을 한 번에
+                경험합니다.
+              </p>
+            </article>
+
+            <article class="lp-feature">
+              <div class="lp-feature__thumb">
+                <video
+                  src="./assets/portfolio/귤밭 영상.mp4"
+                  autoplay
+                  muted
+                  loop
+                  playsinline
+                ></video>
+              </div>
+              <h3 class="lp-feature__title">제주 로컬 × 생성형 AI</h3>
+              <p class="lp-feature__desc">
+                제주 관광·브랜드·캐릭터를 주제로 실제 사용할 수 있는 콘텐츠를
+                만듭니다. 로컬 콘텐츠 기업 실무진의 직접 피드백으로
+                마무리합니다.
+              </p>
+            </article>
+
+            <article class="lp-feature">
+              <div class="lp-feature__thumb">
+                <img
+                  src="./assets/portfolio/백업/246-0003.png"
+                  alt="실습·프로젝트 중심 75시간"
+                  loading="lazy"
+                />
+              </div>
+              <h3 class="lp-feature__title">실습·프로젝트 중심 75시간</h3>
+              <p class="lp-feature__desc">
+                이론 강의에 머물지 않고, 75시간 동안 결과물을 쌓습니다. 마지막엔
+                본인의 포트폴리오로 남는 숏폼 영상을 발표합니다.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- =============== CURRICULUM =============== -->
+      <section id="curriculum" class="lp-section lp-section--gray">
+        <div class="max-width">
+          <div class="lp-section__head">
+            <span class="lp-eyebrow">Curriculum</span>
+            <h2 class="lp-section__title">
+              <span class="txt-highlight">두 가지 트랙</span> 중 선택하세요
+            </h2>
+            <p class="lp-section__desc">
+              본 사업은 영상 콘텐츠 제작 중심의 <strong>A 트랙</strong>과
+              브랜딩·디자인 실무 중심의 <strong>B 트랙</strong>으로
+              구성됩니다.<br />
+              본인의 관심 분야에 맞는 트랙을 선택해 해당 회차에 지원해 주세요.
+              모든 트랙은 75시간 풀 커리큘럼입니다.
+            </p>
+          </div>
+
+          <div class="lp-curr-compare">
+            <!-- A 트랙 카드 -->
+            <article class="lp-curr-card lp-curr-card--a">
+              <div class="lp-curr-card__thumb">
+                <video
+                  src="./assets/portfolio/영상-1.mp4"
+                  autoplay
+                  muted
+                  loop
+                  playsinline
+                ></video>
+              </div>
+              <div class="lp-curr-card__head">
+                <span class="lp-curr-card__label">A 트랙</span>
+                <h3 class="lp-curr-card__title">
+                  영상 콘텐츠 풀스택 제작 과정
+                </h3>
+                <p class="lp-curr-card__desc">
+                  기획부터 영상 생성, 편집, SNS 업로드까지 AI를 활용한 1인
+                  미디어 콘텐츠 제작의 전체 워크플로우를 마스터합니다.
+                </p>
+                <div class="lp-curr-card__meta">
+                  <span>운영: 1·4·5회차</span>
+                  <span>ChatGPT, Gemini, Kling AI, Suno, CapCut, Canva</span>
+                </div>
+              </div>
+              <ol class="lp-curr-card__list">
+                <li>
+                  <strong>AI 기획 및 리서치</strong>
+                  <span
+                    >프롬프트 설계, 맞춤형 챗봇 세팅, 시장 조사 및 기획</span
+                  >
+                </li>
+                <li>
+                  <strong>AI 생성 (이미지·영상·음악)</strong>
+                  <span>이미지 생성, Kling AI 멀티샷, Suno 배경음악 제작</span>
+                </li>
+                <li>
+                  <strong>실무 편집 및 디자인</strong>
+                  <span>CapCut 컷 편집·오디오 싱크, Canva 썸네일 디자인</span>
+                </li>
+                <li>
+                  <strong>프로젝트 중심 실습</strong>
+                  <span>미니 프로젝트 2건 + 최종 개별 프로젝트</span>
+                </li>
+                <li>
+                  <strong>SNS 채널 운영</strong>
+                  <span>알고리즘 이해, 시청 지속률 분석, 업로드 전략</span>
+                </li>
+              </ol>
+            </article>
+
+            <!-- B 트랙 카드 -->
+            <article class="lp-curr-card lp-curr-card--b">
+              <div class="lp-curr-card__thumb">
+                <img
+                  src="./assets/portfolio/skin-img.webp"
+                  alt="B 트랙 대표 이미지"
+                  loading="lazy"
+                />
+              </div>
+              <div class="lp-curr-card__head">
+                <span class="lp-curr-card__label">B 트랙</span>
+                <h3 class="lp-curr-card__title">AI 기반 올인원 브랜딩 실무</h3>
+                <p class="lp-curr-card__desc">
+                  디자인 씽킹 기반의 기획력 위에 생성형 AI와 디자인 툴을
+                  결합하여 하나의 브랜드를 A부터 Z까지 완성합니다.
+                </p>
+                <div class="lp-curr-card__meta">
+                  <span>운영: 2·3회차</span>
+                  <span>Canva, CapCut, ChatGPT, Gemini, Figma, Suno</span>
+                </div>
+              </div>
+              <ol class="lp-curr-card__list">
+                <li>
+                  <strong>디자인 씽킹과 브랜드 기획</strong>
+                  <span
+                    >타겟 분석, 코어 메시지 도출, 톤앤매너·무드보드 세팅</span
+                  >
+                </li>
+                <li>
+                  <strong>AI 비주얼 에셋 생성 실무</strong>
+                  <span
+                    >로고, 캐릭터, 디자인 배경 등 맞춤형 시각 에셋 생성</span
+                  >
+                </li>
+                <li>
+                  <strong>Canva · Figma 활용 콘텐츠 제작</strong>
+                  <span>명함, 포스터, 카드뉴스, SNS 썸네일부터 상세 페이지까지</span>
+                </li>
+                <li>
+                  <strong>캐릭터 브랜딩 · AI 영상 제작 · 웹 페이지 구현 </strong>
+                  <span>캐릭터 에셋 결합, CapCut 숏폼 영상, AI 기반 웹 페이지 제작</span>
+                </li>
+                <li>
+                  <strong>개인 브랜딩 포트폴리오 완성</strong>
+                  <span>브랜드 가이드북 제작 + SNS 운영 전략 발표</span>
+                </li>
+              </ol>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- =============== TRACKS =============== -->
+      <section id="tracks" class="lp-section">
+        <div class="max-width">
+          <div class="lp-section__head">
+            <span class="lp-eyebrow">5 Tracks</span>
+            <h2 class="lp-section__title">나에게 맞는 일정을 골라보세요</h2>
+            <p class="lp-section__desc">
+              5개 회차로 운영되며, 각 회차는 본인의 일정에 맞춰 선택할 수
+              있습니다. 모든 회차는 75시간 풀 커리큘럼으로 동일하게 진행되며,
+              회차당 30명을 선발합니다.
+            </p>
+          </div>
+
+          <div class="lp-tracks">
+            <article class="lp-track lp-track--a">
+              <h3 class="lp-track__name">
+                <span class="lp-track__label">1회차 - A트랙</span> 주말반
+                <span class="lp-track__tag">15회 × 5h</span>
+              </h3>
+              <p class="lp-track__course">영상 콘텐츠 풀스택 제작 과정</p>
+              <dl class="lp-track__list">
+                <div class="lp-track__row">
+                  <dt>강사</dt>
+                  <dd class="lp-track__instructor">고재훈 외</dd>
+                </div>
+                <div class="lp-track__row">
+                  <dt>기간</dt>
+                  <dd>2026.08.16 ~ 10.11 (국가 공휴일 휴강)</dd>
+                </div>
+                <div class="lp-track__row">
+                  <dt>요일·시간</dt>
+                  <dd>매주 토·일 13:00 ~ 18:00</dd>
+                </div>
+                <div class="lp-track__row">
+                  <dt>모집</dt>
+                  <dd>2026.07.15 ~ 07.28</dd>
+                </div>
+                <div class="lp-track__row">
+                  <dt>대상</dt>
+                  <dd>고등학생·대학생·일반인</dd>
+                </div>
+              </dl>
+              <a
+                href="#"
+                class="btn lp-track__apply lp-track__apply--a lp-track__apply--closed"
+                aria-disabled="true"
+                tabindex="-1"
+                aria-label="1회차 A트랙 주말반 모집 마감"
+                >모집 마감</a
+              >
+            </article>
+
+            <article class="lp-track lp-track--b">
+              <h3 class="lp-track__name">
+                <span class="lp-track__label">2회차 - B트랙</span> 주말반
+                <span class="lp-track__tag">25회 × 3h</span>
+              </h3>
+              <p class="lp-track__course">AI 기반 올인원 브랜딩 실무</p>
+              <dl class="lp-track__list">
+                <div class="lp-track__row">
+                  <dt>강사</dt>
+                  <dd class="lp-track__instructor">이희지 · 차경림 외</dd>
+                </div>
+                <div class="lp-track__row">
+                  <dt>기간</dt>
+                  <dd>2026.09.05 ~ 12.05 (국가 공휴일 휴강)</dd>
+                </div>
+                <div class="lp-track__row">
+                  <dt>요일·시간</dt>
+                  <dd>매주 토·일 13:00 ~ 16:00 (3시간)</dd>
+                </div>
+                <div class="lp-track__row">
+                  <dt>모집</dt>
+                  <dd>2026.08.07 ~ 08.30</dd>
+                </div>
+                <div class="lp-track__row">
+                  <dt>대상</dt>
+                  <dd>고등학생·대학생·일반인</dd>
+                </div>
+              </dl>
+              <a
+                href="https://forms.gle/YWtUV1xhXzvB2K4n7"
+                class="btn lp-track__apply lp-track__apply--b"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="2회차 B트랙 주말반 신청하기"
+                >신청하기</a
+              >
+            </article>
+
+            <article class="lp-track lp-track--b">
+              <h3 class="lp-track__name">
+                <span class="lp-track__label">3회차 - B트랙</span> 평일 저녁반
+                <span class="lp-track__tag">25회 × 3h</span>
+              </h3>
+              <p class="lp-track__course">AI 기반 올인원 브랜딩 실무</p>
+              <dl class="lp-track__list">
+                <div class="lp-track__row">
+                  <dt>강사</dt>
+                  <dd class="lp-track__instructor">이희지 · 차경림 외</dd>
+                </div>
+                <div class="lp-track__row">
+                  <dt>기간</dt>
+                  <dd>2026.09.07 ~ 12.01 (국가 공휴일 휴강)</dd>
+                </div>
+                <div class="lp-track__row">
+                  <dt>요일·시간</dt>
+                  <dd>매주 월·화 19:00 ~ 22:00 (3시간)</dd>
+                </div>
+                <div class="lp-track__row">
+                  <dt>모집</dt>
+                  <dd>2026.08.07 ~ 08.30</dd>
+                </div>
+                <div class="lp-track__row">
+                  <dt>대상</dt>
+                  <dd>직장인·소상공인·일반인</dd>
+                </div>
+              </dl>
+              <a
+                href="https://forms.gle/YWtUV1xhXzvB2K4n7"
+                class="btn lp-track__apply lp-track__apply--b"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="3회차 B트랙 평일 저녁반 신청하기"
+                >신청하기</a
+              >
+            </article>
+
+            <article class="lp-track lp-track--a">
+              <h3 class="lp-track__name">
+                <span class="lp-track__label">4회차 - A트랙</span> 평일반
+                <span class="lp-track__tag">15회 × 5h</span>
+              </h3>
+              <p class="lp-track__course">영상 콘텐츠 풀스택 제작 과정</p>
+              <dl class="lp-track__list">
+                <div class="lp-track__row">
+                  <dt>강사</dt>
+                  <dd class="lp-track__instructor">김윤영 외</dd>
+                </div>
+                <div class="lp-track__row">
+                  <dt>기간</dt>
+                  <dd>2026.09.04 ~ 11.27 (국가 공휴일 휴강)</dd>
+                </div>
+                <div class="lp-track__row">
+                  <dt>요일·시간</dt>
+                  <dd>
+                    10.08까지 매주 목·금 13:00 ~ 18:00<br />
+                    10.16부터 매주 금 13:00 ~ 18:00
+                  </dd>
+                </div>
+                <div class="lp-track__row">
+                  <dt>모집</dt>
+                  <dd>2026.08.07 ~ 08.30</dd>
+                </div>
+                <div class="lp-track__row">
+                  <dt>대상</dt>
+                  <dd>대학생·소상공인·일반인</dd>
+                </div>
+              </dl>
+              <a
+                href="https://forms.gle/jzknLRCdjfhhfYkg8"
+                class="btn lp-track__apply lp-track__apply--a"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="4회차 A트랙 평일반 신청하기"
+                >신청하기</a
+              >
+            </article>
+
+            <article class="lp-track lp-track--a">
+              <h3 class="lp-track__name">
+                <span class="lp-track__label">5회차 - A트랙</span> 주말반
+                <span class="lp-track__tag">15회 × 5h</span>
+              </h3>
+              <p class="lp-track__course">영상 콘텐츠 풀스택 제작 과정</p>
+              <dl class="lp-track__list">
+                <div class="lp-track__row">
+                  <dt>강사</dt>
+                  <dd class="lp-track__instructor">고재훈 외</dd>
+                </div>
+                <div class="lp-track__row">
+                  <dt>기간</dt>
+                  <dd>2026.09.12 ~ 11.28 (국가 공휴일 휴강)</dd>
+                </div>
+                <div class="lp-track__row">
+                  <dt>요일·시간</dt>
+                  <dd>
+                    09.12 ~ 10.11 매주 토·일 13:00 ~ 18:00<br />
+                    10.17부터 매주 토 13:00 ~ 18:00
+                  </dd>
+                </div>
+                <div class="lp-track__row">
+                  <dt>모집</dt>
+                  <dd>2026.08.07 ~ 08.30</dd>
+                </div>
+                <div class="lp-track__row">
+                  <dt>대상</dt>
+                  <dd>전체 (직장인·소상공인·대학생·고등학생 등)</dd>
+                </div>
+              </dl>
+              <a
+                href="https://forms.gle/jzknLRCdjfhhfYkg8"
+                class="btn lp-track__apply lp-track__apply--a"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="5회차 A트랙 주말반 신청하기"
+                >신청하기</a
+              >
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- =============== BENEFITS =============== -->
+      <section class="lp-section">
+        <div class="max-width">
+          <div class="lp-section__head">
+            <span class="lp-eyebrow">Benefits</span>
+            <h2 class="lp-section__title">
+              <span class="txt-highlight">수강생 혜택</span>
+            </h2>
+          </div>
+
+          <div class="lp-benefits">
+            <article class="lp-benefit">
+              <div class="lp-benefit__thumb">
+                <img
+                  src="./assets/img/1.png"
+                  alt="수강생 혜택 1"
+                  loading="lazy"
+                />
+              </div>
+              <p class="lp-benefit__text">AI 구독료 최대 12만원 지원</p>
+            </article>
+            <article class="lp-benefit">
+              <div class="lp-benefit__thumb">
+                <img
+                  src="./assets/img/2.png"
+                  alt="수강료 전액 무료"
+                  loading="lazy"
+                />
+              </div>
+              <p class="lp-benefit__text">수강료 전액 무료</p>
+            </article>
+            <article class="lp-benefit">
+              <div class="lp-benefit__thumb">
+                <img
+                  src="./assets/img/3.png"
+                  alt="현직 전문가 멘토링"
+                  loading="lazy"
+                />
+              </div>
+              <p class="lp-benefit__text">현직 전문가 멘토링</p>
+            </article>
+            <article class="lp-benefit">
+              <div class="lp-benefit__thumb">
+                <img
+                  src="./assets/img/4.png"
+                  alt="100% 오프라인 밀착 교육"
+                  loading="lazy"
+                />
+              </div>
+              <p class="lp-benefit__text">100% 오프라인 밀착 교육</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- =============== FINAL PROJECT =============== -->
+      <section class="lp-section lp-section--gray">
+        <div class="max-width">
+          <div class="lp-section__head">
+            <span class="lp-eyebrow">Final Project</span>
+            <h2 class="lp-section__title">
+              75시간 끝에, 나만의
+              <span class="txt-highlight">콘텐츠 한 편</span>이 남습니다
+            </h2>
+            <p class="lp-section__desc">
+              교육의 마지막은 본인이 직접 기획·제작한 콘텐츠로 마무리됩니다.
+              미니 프로젝트로 단계별 감각을 익히고, 최종 프로젝트로 본인의
+              포트폴리오 한 편을 완성합니다.
+            </p>
+          </div>
+
+          <div class="lp-final">
+            <div class="lp-final__thumb">
+              <video
+                src="./assets/portfolio/고양이 영상.mp4"
+                autoplay
+                muted
+                loop
+                playsinline
+              ></video>
+            </div>
+            <div class="lp-final__specs">
+              <div class="lp-final__spec">
+                <strong>분량</strong>
+                <span>15초 ~ 60초 숏폼 콘텐츠</span>
+              </div>
+              <div class="lp-final__spec">
+                <strong>주제</strong>
+                <span
+                  >제주 관광·자연 / 문화·전통 / 로컬푸드 / 지역 브랜드 — 4가지
+                  중 선택</span
+                >
+              </div>
+              <div class="lp-final__spec">
+                <strong>필수 구성 요소</strong>
+                <span
+                  >AI 생성 이미지 또는 영상 · AI 음성(TTS) 또는 BGM · 자막 ·
+                  썸네일 1종</span
+                >
+              </div>
+              <div class="lp-final__spec">
+                <strong>활용 도구</strong>
+                <span
+                  >ChatGPT · Gemini · Kling AI · Suno · CapCut · Canva 등</span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- =============== INFO / 모집안내 =============== -->
+      <section id="info" class="lp-section">
+        <div class="max-width">
+          <div class="lp-section__head">
+            <span class="lp-eyebrow">Recruitment</span>
+            <h2 class="lp-section__title">모집 안내</h2>
+            <p class="lp-section__desc">
+              콘텐츠 기획·제작·유통에 AI를 활용하고 싶은 현업 창작자와 예비
+              창작자 모두 지원할 수 있습니다.
+            </p>
+          </div>
+
+          <dl class="lp-info-list">
+            <div class="lp-info-list__row">
+              <dt>교육 대상</dt>
+              <dd>
+                콘텐츠 분야 현업 창작자 및 예비 창작자
+                <span>취·창업 준비생, 대학생, 학생 등</span>
+              </dd>
+            </div>
+            <div class="lp-info-list__row">
+              <dt>선발 인원</dt>
+              <dd>회차당 30명 <span>총 150명 (5개 회차)</span></dd>
+            </div>
+            <div class="lp-info-list__row">
+              <dt>교육 비용</dt>
+              <dd>
+                전액 무료 (0원) <span>한국콘텐츠진흥원 국고보조 100%</span>
+              </dd>
+            </div>
+            <div class="lp-info-list__row">
+              <dt>교육 방식</dt>
+              <dd>100% 오프라인 <span>제주대학교 공과대학 4호관 또는 위니브 강의실(제주시 아라동)</span></dd>
+            </div>
+            <div class="lp-info-list__row">
+              <dt>선발 절차</dt>
+              <dd>지원 동기 기반 서류 선발 <span>합격자 개별 안내</span></dd>
+            </div>
+            <div class="lp-info-list__row">
+              <dt>수료 기준</dt>
+              <dd>
+                출석률 80% 이상 + 최종 프로젝트 제출
+                <span>수료 시 AI 구독료 최대 12만원 지원</span>
+              </dd>
+            </div>
+          </dl>
+
+          <div class="lp-info-notice">
+            <p>
+              ※ 본 교육은 1개 회차에만 참여할 수 있습니다. 본인의 일정과 학습
+              목적에 가장 적합한 회차 1개를 선택해 신청해 주세요.
+            </p>
+            <p>
+              ※ 수료 기준을 충족하지 못한 경우 AI 구독료는 지원되지 않으니 꼭
+              참고해 주세요.
+            </p>
+            <p>
+              ※ 문의 : paul-lab@naver.com
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- =============== FAQ =============== -->
+      <section id="faq" class="lp-section lp-section--gray">
+        <div class="max-width">
+          <div class="lp-section__head">
+            <span class="lp-eyebrow">FAQ</span>
+            <h2 class="lp-section__title">자주 묻는 질문</h2>
+          </div>
+
+          <div class="lp-faq">
+            <details class="lp-faq__item">
+              <summary>Q1. 교육비가 정말 무료인가요?</summary>
+              <p>네, 교육생 부담은 0원입니다.</p>
+            </details>
+
+            <details class="lp-faq__item">
+              <summary>
+                Q2. AI 도구 구독료(Gemini, Kling 등)도 지원되나요?
+              </summary>
+              <p>
+                네, 수료자에 한해 1인당 최대 12만 원의 AI 구독료가 교육 종료 후 일괄
+                지급됩니다. 본인이 결제하신 도구의 비용 영수증을 제출해 주시면,
+                수료 확인 후 환급 형태로 지원되니 결제 영수증을 꼭 보관해
+                주세요.
+              </p>
+            </details>
+
+            <details class="lp-faq__item">
+              <summary>Q3. 비전공자나 초보자도 신청할 수 있나요?</summary>
+              <p>
+                가능합니다. 콘텐츠 기획·창작·유통에 AI를 활용하고 싶은 현업
+                창작자와 예비 창작자(취·창업 준비생, 대학생 등) 모두 지원할 수
+                있습니다. 초반 회차에서 AI 기초 개념부터 함께 다루니, 처음
+                접하시는 분도 부담 없이 따라오실 수 있습니다. 다만 본 교육은
+                노트북으로 다양한 AI 도구와 편집 프로그램을 직접 다루는 실습
+                위주로 진행됩니다. 컴퓨터 사용이나 기본적인 웹 브라우저·파일
+                관리에 익숙하지 않으신 분은 수업을 따라가시기 어려울 수 있으니
+                참고해 주시기 바랍니다.
+              </p>
+            </details>
+
+            <details class="lp-faq__item">
+              <summary>Q4. 온라인으로 수강할 수 있나요?</summary>
+              <p>
+                본 교육은 100% 오프라인으로 진행되며, 별도의 온라인 수강은
+                제공되지 않습니다. 모든 회차는 오프라인으로 제주대학교에서
+                운영됩니다.
+              </p>
+            </details>
+
+            <details class="lp-faq__item">
+              <summary>
+                Q5. 여러 회차 또는 타 기관 교육과 중복 참여가 가능한가요?
+              </summary>
+              <p>
+                교육생은 5개 회차 중 1개에만 참여할 수 있습니다. 본인의 일정과
+                학습 목적에 가장 적합한 회차 1개를 선택해 신청해 주시기
+                바랍니다. 또한 동일 사업(2026년 AI특화 콘텐츠 창작자 양성
+                지원사업) 내 타 기관 교육과 동시에 선발될 경우 중복 참여가
+                제한될 수 있으며, 하나의 과정을 선택하여 등록하셔야 합니다.
+              </p>
+            </details>
+
+            <details class="lp-faq__item">
+              <summary>Q6. 수료 기준은 어떻게 되나요?</summary>
+              <p>
+                출석률 80% 이상과 최종 프로젝트 제출이 기본 기준입니다. 두
+                조건을 모두 충족하셔야 수료가 인정되며, 수료 시 최대 12만원 AI 구독료가
+                지원됩니다.
+              </p>
+            </details>
+
+            <details class="lp-faq__item">
+              <summary>Q7. 어떤 결과물을 만들 수 있나요?</summary>
+              <p>
+                교육 기간 동안 미니 프로젝트와 최종 프로젝트를 제작합니다. 최종
+                산출물은 15~60초 분량의 AI 숏폼 콘텐츠이며, AI 생성 이미지·영상,
+                음성(TTS) 또는 BGM, 자막, 썸네일이 포함됩니다.
+              </p>
+            </details>
+
+            <details class="lp-faq__item">
+              <summary>Q8. 노트북은 어떤 사양이 필요한가요?</summary>
+              <p>
+                본 교육은 본인의 노트북으로 실습이 진행됩니다. 수업 중에는 주로
+                웹 기반 AI 도구(ChatGPT·Gemini·Kling AI·Suno 등)와
+                CapCut·Canva를 활용합니다. 별도의 고사양 프로그램 설치 없이
+                대부분 웹 브라우저에서 진행되므로, 위 도구들이 무리 없이
+                실행되고 인터넷이 원활하게 연결되는 노트북이라면 충분합니다.
+                평소 사용하시는 노트북으로 영상 시청과 간단한 영상 편집(CapCut
+                등)이 가능한 수준이면 문제없이 수업에 참여하실 수 있습니다.
+              </p>
+            </details>
+
+            <details class="lp-faq__item">
+              <summary>Q9. 제주대학교 주차는 가능한가요?</summary>
+              <p>
+                제주대학교 내 주차 공간은 이용 가능하지만, 주차 비용은 별도로
+                지원되지 않습니다. 캠퍼스 내 유료 주차장을 이용하실 경우 본인
+                부담으로 운영됩니다. 대중교통이나 도보 이용을 권장드리며, 차량
+                이용을 원하시는 경우 시간·요금 등은 제주대학교 홈페이지에서
+                사전에 확인해 주세요.
+              </p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+      <!-- =============== CTA =============== -->
+      <section id="apply" class="lp-cta">
+        <div class="max-width lp-cta__inner">
+          <h2 class="lp-cta__title">
+            AI 콘텐츠 창작자의 길,<br />지금 시작하세요
+          </h2>
+          <p class="lp-cta__desc">
+            5개 트랙 중 본인의 일정에 맞는 트랙을 선택해 신청해주세요.<br />
+            각 트랙 카드의 <strong>접수하기</strong> 버튼을 통해 Google Form으로
+            연결됩니다.
+          </p>
+
+          <a
+            href="#tracks"
+            class="btn btn--primary"
+            aria-label="트랙 선택 섹션으로 이동"
+          >
+            트랙 보러 가기
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <!-- =============== MODAL: 오픈 예정 안내 =============== -->
+    <div
+      id="lp-modal"
+      class="lp-modal"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="lp-modal-title"
+      aria-hidden="true"
+    >
+      <div class="lp-modal__backdrop" data-modal-close aria-hidden="true"></div>
+      <div class="lp-modal__panel">
+        <h3 id="lp-modal-title" class="lp-modal__title">오픈 예정입니다</h3>
+        <p class="lp-modal__desc">
+          신청 폼은 준비 중이며, 오픈되는 대로<br />
+          각 트랙 카드의 <strong>접수하기</strong> 버튼이 활성화됩니다.
+        </p>
+        <button
+          type="button"
+          class="btn btn--primary lp-modal__close"
+          data-modal-close
+        >
+          확인
+        </button>
+      </div>
+    </div>
+
+    <!-- =============== FOOTER =============== -->
+    <footer class="lp-footer">
+      <div class="max-width lp-footer__inner">
+        <div>
+          <div class="lp-footer__brand">제주관광 부스트업 AI 콘텐츠 창작소</div>
+          <div class="lp-footer__row">
+            문화체육관광부 · 한국콘텐츠진흥원 · 제주대학교 산학협력단
+          </div>
+        </div>
+        <div class="lp-footer__row">
+          <div>© 2026 제주관광 부스트업 AI 콘텐츠 창작소</div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- =============== 모달: 오픈 예정 안내 =============== -->
+    <script>
+      (function () {
+        const modal = document.getElementById("lp-modal");
+        if (!modal) return;
+
+        let lastFocused = null;
+
+        function open(trigger) {
+          lastFocused = trigger || document.activeElement;
+          modal.classList.add("is-open");
+          modal.setAttribute("aria-hidden", "false");
+          document.body.style.overflow = "hidden";
+          const closeBtn = modal.querySelector(".lp-modal__close");
+          if (closeBtn) closeBtn.focus();
+        }
+        function close() {
+          modal.classList.remove("is-open");
+          modal.setAttribute("aria-hidden", "true");
+          document.body.style.overflow = "";
+          if (lastFocused && typeof lastFocused.focus === "function") {
+            lastFocused.focus();
+          }
+        }
+
+        // 트랙 접수하기 버튼: href가 비어있거나 "#"이면 모달로 안내
+        document.querySelectorAll(".lp-track__apply").forEach(function (btn) {
+          btn.addEventListener("click", function (e) {
+            const href = btn.getAttribute("href");
+            if (!href || href === "#" || href.trim() === "") {
+              e.preventDefault();
+              open(btn);
+            }
+          });
+        });
+
+        // 닫기 트리거 (백드롭, 확인 버튼)
+        modal.querySelectorAll("[data-modal-close]").forEach(function (el) {
+          el.addEventListener("click", close);
+        });
+
+        // ESC 키로 닫기
+        document.addEventListener("keydown", function (e) {
+          if (e.key === "Escape" && modal.classList.contains("is-open"))
+            close();
+        });
+      })();
+    </script>
+
+    <!-- =============== HERO 3D SCENE — 제거됨 (우측 영역에 추후 3D 이미지 인터랙션 추가 예정) =============== -->
+    <!-- =============== 헤더 스크롤 상태 — 배지가 헤더에 닿기 전: 투명 / 닿으면: 솔리드 =============== -->
+    <script>
+      (function () {
+        const header = document.querySelector(".lp-header");
+        const badge = document.querySelector(".lp-hero__badge");
+        if (!header || !badge) return;
+
+        const BUFFER = 16; // 겹치기 직전에 미리 전환되도록 여유
+        let ticking = false;
+
+        const update = () => {
+          const headerHeight = header.offsetHeight || 72;
+          const badgeTop = badge.getBoundingClientRect().top;
+          // 배지 윗변이 헤더 아래쪽(+버퍼)에 닿으면 솔리드 헤더로 전환
+          const overlapping = badgeTop <= headerHeight + BUFFER;
+          header.classList.toggle("lp-header--transparent", !overlapping);
+          ticking = false;
+        };
+
+        const onScroll = () => {
+          if (ticking) return;
+          ticking = true;
+          requestAnimationFrame(update);
+        };
+
+        window.addEventListener("scroll", onScroll, { passive: true });
+        window.addEventListener("resize", onScroll, { passive: true });
+        update();
+      })();
+    </script>
+
+    <!-- =============== PORTFOLIO 3D SCENE — 학습 결과물 데모 (lazy init) =============== -->
+    <script type="module">
+      import initPortfolioScene from "./style/3d/portfolio-scene.js";
+      const canvas = document.querySelector("#portfolio-canvas");
+      if (canvas) {
+        // 처음 뷰포트에 들어올 때만 초기화 — 스크롤 전에는 비용 0
+        const once = new IntersectionObserver(
+          ([entry], obs) => {
+            if (entry.isIntersecting) {
+              obs.disconnect();
+              initPortfolioScene(canvas);
+            }
+          },
+          { rootMargin: "200px" },
+        );
+        once.observe(canvas);
+      }
+    </script>
+  </body>
+</html>

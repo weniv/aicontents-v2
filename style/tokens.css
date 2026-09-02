@@ -1,0 +1,94 @@
+/*
+ * 디자인 토큰 (CSS 변수)
+ * --------------------------------------------------------------
+ * 카테고리:
+ *   - background / surface : 배경/표면 컬러
+ *   - primary              : 브랜드 메인 컬러 (블루)
+ *   - grayLv1 ~ grayLv4    : 낮은 단계일수록 옅은 회색
+ *   - error / warn         : 상태 컬러
+ *   - activation           : 강조 배경 (보조)
+ *   - code-*               : 코드 하이라이트 컬러
+ *   - effect-shadow        : 카드/버튼 그림자
+ *   - fixed-white/black    : 테마와 무관하게 고정된 색
+ *
+ * 라이트 테마 단일 운영.
+ */
+
+:root {
+  /* base */
+  --background: #fff;
+  --background-rgb: 255, 255, 255;
+
+  /* primary (brand lime — 제주관광 부스트업 키컬러) */
+  --primary: #F3FF45;
+  --primary-lighten: #F7FF80;
+  --primary-darken: #E0ED20;
+  --primary-text: #121314;
+  --primary-rgb: 243, 255, 69;
+  --primary-a11y: #6b6b6b;
+
+  /* surface (반대 색감, 텍스트/다크 패널 등) */
+  --surface: #121314;
+  --surface-lighten: #1d1f20;
+  --surface-darken: #050505;
+  --surface-text: #fff;
+  --surface-rgb: 18, 19, 20;
+
+  /* gray scale: Lv1(가장 옅음) → Lv4(가장 진함) */
+  --grayLv1: #f4f4f4;
+  --grayLv1-lighten: #fff;
+  --grayLv1-darken: #caccd3;
+  --grayLv1-text: #121314;
+  --grayLv1-rgb: 244, 244, 244;
+
+  --grayLv2: #d9dbe0;
+  --grayLv2-lighten: #e6e7ea;
+  --grayLv2-darken: #caccd3;
+  --grayLv2-text: #121314;
+  --grayLv2-rgb: 217, 219, 224;
+
+  --grayLv3: #8d9299;
+  --grayLv3-lighten: #9ba0a6;
+  --grayLv3-darken: #80868e;
+  --grayLv3-text: #fff;
+  --grayLv3-rgb: 141, 146, 153;
+  --grayLv3-aA11y: #6c7074;
+
+  --grayLv4: #47494d;
+  --grayLv4-lighten: #53565a;
+  --grayLv4-darken: #3b3c40;
+  --grayLv4-text: #fff;
+  --grayLv4-rgb: 71, 73, 77;
+
+  /* status */
+  --error: #ff3440;
+  --error-lighten: #ff4d57;
+  --error-darken: #ff1a27;
+  --error-text: #fff;
+  --error-rgb: 255, 52, 64;
+
+  --warn: #ffc533;
+  --warn-lighten: #ffcc4d;
+  --warn-darken: #ffbe1a;
+  --warn-text: #121314;
+  --warn-rgb: 255, 197, 51;
+
+  /* highlight 배경 (연한 라임 틴트) */
+  --activation: #FDFFD6;
+  --activation-rgb: 253, 255, 214;
+
+  /* code 하이라이트 (코드 블록용) */
+  --code-pink: #c93864;
+  --code-purple: #964dd1;
+  --code-blue: #2e5dd6;
+  --code-green: #328026;
+  --code-orange: #e37c00;
+
+  /* effects */
+  --effect-shadow: 0px 4px 20px 0px rgba(0, 0, 0, .04);
+
+  /* 테마 무관 고정 컬러 */
+  --fixed-white: #fff;
+  --fixed-black: #121314;
+}
+
